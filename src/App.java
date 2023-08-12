@@ -12,7 +12,6 @@ public class App extends Application {
         Button btn = new Button();
         btn.setText("Say 'Hello World'");
         btn.setOnAction(new EventHandler<ActionEvent>() {
- 
             @Override
             public void handle(ActionEvent event) {
                 System.out.println("Hello World!");
@@ -22,19 +21,19 @@ public class App extends Application {
         StackPane root = new StackPane();
         root.getChildren().add(btn);
   
-  /*
-  Parent root = FXMLLoader.load(getClass().getResource("MainScene.fxml"));
-  Scene scene = new Scene(root);
-  */
-  
-  Scene scene = new Scene(root, 300, 250);
-  
-  primaryStage.setTitle("Hello World!");
+        /*
+        Parent root = FXMLLoader.load(getClass().getResource("MainScene.fxml"));
+        Scene scene = new Scene(root);
+        */
+    
+        Scene scene = new Scene(root, 300, 250);
+        
+        primaryStage.setTitle("Hello World!");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
  
- public static void main(String[] args) {
+    public static void main(String[] args) {
         launch(args);
     }
 }
