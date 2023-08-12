@@ -1,0 +1,15 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Users/theoduluard/javafx/lib/javafx-swt.jar",
+        "/Users/theoduluard/javafx/lib/javafx.base.jar",
+        "/Users/theoduluard/javafx/lib/javafx.controls.jar",
+        "/Users/theoduluard/javafx/lib/javafx.graphics.jar",
+        "/Users/theoduluard/javafx/lib/javafx.fxml.jar",
+        "/Users/theoduluard/javafx/lib/javafx.web.jar",
+        "/Users/theoduluard/javafx/lib/javafx.swing.jar",
+        "/Users/theoduluard/javafx/lib/javafx.media.jar"
+    ]
+}
